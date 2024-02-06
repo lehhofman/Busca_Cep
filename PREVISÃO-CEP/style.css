@@ -1,0 +1,114 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1920x1080/?cidade");
+
+}
+
+form {
+
+    width: 650px;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #5BC0EB;
+    border: 20px solid #006992;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFFFFF;
+
+}
+
+label {
+
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  #ffffff;
+    font-weight: bolder;
+
+}
+
+input[type="text"] {
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.caixa-media {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.tem, .caixa-menor, .umd {
+
+    text-align: center;
+
+}
+
+.tem1 p {
+
+    font-size: 28px;
+    margin-top: 25px;
+    color:  #006992;
+    font-weight: bolder;
+
+}
+
+.img-previsao {
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.texto-previsao {
+
+    font-size: 28px;
+    color:  #006992;
+    font-weight: bolder;
+
+}
+
+.umd1 p {
+
+    font-size: 28px;
+    margin-top: 25px;
+    color:  #006992;
+    font-weight: bolder;
+
+}
+
+svg {
+
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
