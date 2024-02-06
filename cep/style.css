@@ -20,14 +20,14 @@ body {
 
 form{
     
-    background-color: #000000;
-    opacity: 0.8;
+    background-color: yellow;
+    
     border-radius: 25px;
     padding: 20px;
     width: 1050px;
     max-width: 750px;
     height: 400px;
-    color: #ffffff;
+    color: blue;
 
 }
 
@@ -36,24 +36,34 @@ label{
     margin-left: 100px;
     font-size: 20px;
     font-weight: bold;
-    color: #ffffff;
+    color: blue;
     display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 input{
     
-    border-radius: 20px;
+    border-radius: 10px;
     height: 30px;
     margin-left: 20px;
 }
 
-h2{
+.cep h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
-    color: #ffffff;
+    color: blue;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+}
+
+.cep{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
