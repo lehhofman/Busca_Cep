@@ -23,11 +23,11 @@
 
 ## Tela inicial:
 
-![Tela01](./Telas/tela01.jpeg)
+![Tela01](./Telas/Tela01.jpeg)
 
 ## Tela resultado:
 
-![Tela01](./Telas/tela02.jpeg)
+![Tela01](./Telas/Tela02.jpeg)
 ## Autores:
 
 - [@lehhofman](https://www.github.com/lehhofman)
