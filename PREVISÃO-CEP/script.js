@@ -34,7 +34,6 @@ function meu_callback(conteudo) {
         document.getElementById('bairro').value = conteudo.bairro;
         document.getElementById('cidade').value = conteudo.localidade;
         document.getElementById('uf').value = conteudo.uf;
-        document.getElementById('ibge').value = conteudo.ibge;
 
         // Após obter o CEP, busca automaticamente o clima usando a cidade obtida do CEP
         buscarCidade(conteudo.localidade);
